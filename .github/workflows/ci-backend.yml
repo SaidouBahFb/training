@@ -2,7 +2,8 @@ name: CI Backend (Docker)
 
 on:
   push:
-    branches: ["main"] # déclenché sur push vers main
+    # déclenché sur push vers main
+    branches: ["main"]
 
 jobs:
   build-and-push-backend:
