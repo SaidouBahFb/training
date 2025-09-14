@@ -1,0 +1,21 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build
+dist/
+build/
+
+# Env & secrets
+.env
+.env.*
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Docker
+**/mysql_data/
